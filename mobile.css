@@ -34,10 +34,9 @@ body {
     border-radius: 10px;  
     overflow: hidden;
     background-color: white;
-    /* box-shadow: 0 1px 5px 0 rgba(0, 0, 0, 0.2), 0 5px 10px 0 rgba(0, 0, 0, 0.10); */
 }
 
-@media screen and (min-width: 376px) {
+@media screen and (min-width: 801px) {
     .container{
         width: 1440px;
         padding: 0px;
@@ -57,7 +56,7 @@ body {
     display: none;
 }
 
-@media screen and (min-width: 376px) {
+@media screen and (min-width: 801px) {
 
     .dimg{
         display: block;
@@ -77,7 +76,7 @@ body {
     max-width: 350px;
 }
 
-@media screen and (min-width: 376px) {
+@media screen and (min-width: 801px) {
     .mimg {
         display: none;
     }
@@ -90,7 +89,7 @@ body {
     padding: 20px;
 }
 
-@media screen and (min-width: 376px) {
+@media screen and (min-width: 801px) {
     .main {
             /* width: 550px; */
             margin: 50px auto;
@@ -107,7 +106,7 @@ body {
     margin-bottom: 10px;
     font-weight: 400;
 }
-@media screen and (min-width: 376px) {
+@media screen and (min-width: 801px) {
     .preview {
             letter-spacing: 7px;
             font-size: 1.25em;
@@ -121,7 +120,7 @@ h1{
     margin-bottom: 10px;
     color: var(--Verydarkblue);
 }
-@media screen and (min-width: 376px) {
+@media screen and (min-width: 801px) {
     h1 {
             font-size: 3.5em;
             margin: 30px 0px;
@@ -135,7 +134,7 @@ h1{
     line-height: 1.5;
     margin: 20px 0;
 }
-@media screen and (min-width: 376px) {
+@media screen and (min-width: 801px) {
     .main-text {
             width: 350px;
             font-size: 1.5em;
@@ -161,7 +160,7 @@ h1{
     color: var(--Darkgrayishblue);
 }
 
-@media screen and (min-width: 376px) {
+@media screen and (min-width: 801px) {
     .price {
             margin: 20px 0;
             width: 220px;
@@ -200,7 +199,7 @@ h1{
     font-stretch: ultra-expanded;
 }
 
-@media screen and (min-width: 376px) {
+@media screen and (min-width: 801px) {
     .cart-btn {
             margin: 20px auto;
             padding: 18px 120px;
@@ -229,11 +228,11 @@ h1{
 }
 
 .attribution {
-    font-size: 0.65em;
+    font-size: 0.35em;
     margin: 10px 0px 0px;
 }
 
-@media screen and (min-width: 376px) {
+@media screen and (min-width: 801px) {
     .attribution {
             margin: 20px 0;
         }
